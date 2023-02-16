@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: cursive;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.btn{
+    background-color:red;
+    opacity: .6;
+    width:22px;
+    height:22px;
+}
+input:focus{
+    outline:  rgb(238,174,202);
+}
+#myUL li{
+    list-style: none;
+    font-size: 18px;
+    width:90%;
+    padding: 5px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    border:0;
+height: 35px;
+width:300px;
+margin-right: 20px;
+border-radius: 2%;
+}
+.lineThrough {
+    text-decoration: line-through;
+    color: grey;
+    transition: ease-in .2s;
+}
+form{
+background-color: aliceblue;    
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+width:450px;
+height: 100px;
+display:flex;
+justify-content: center;
+align-items: center;
+border-radius: 15px;
+
+
+}
+button{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    background-color: purple;
+    border-radius: 2%;
+    border:0;
+    padding:2px;
+    width:70px;
+    font-weight: 300;
+    color:#fff;
+}
+.display{
+    background-color: aliceblue;
+    width:450px;
+    margin-top: 20px;
+    border-radius: 15px;
+
+}
